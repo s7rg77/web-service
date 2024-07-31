@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>desarrollo web entorno servidor</title>
+    <title>web service</title>
     <style>
         body {
             margin: 0px;
@@ -49,11 +49,11 @@
             margin-left: 10px;
             margin-bottom: 10px;
             padding: 10px;
-            cursor: pointer;
-            background-color: mediumpurple;
-            color: white;
             border: none;
             border-radius: 5px;
+            background-color: mediumpurple;
+            color: white;
+            cursor: pointer;
         }
 
         button:hover {
@@ -61,17 +61,17 @@
         }
 
         input {
-            width: 25px;
             padding: 5px;
+            width: 25px;
         }
 
         footer {
+            bottom: 0px;
+            width: 100%;
             background-color: mediumpurple;
             color: white;
             text-align: center;
             position: fixed;
-            bottom: 0;
-            width: 100%;
         }
     </style>
     <script>
